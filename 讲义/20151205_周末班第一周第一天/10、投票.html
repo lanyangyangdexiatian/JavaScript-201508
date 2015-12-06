@@ -51,7 +51,6 @@
 
     <div id="btn">我非常非常非常赞同以上的观点<span id="spanNum">0</span></div>
 </div>
-
 <script type="text/javascript">
     var oBtn = document.getElementById("btn");
     var spanNum = document.getElementById("spanNum");
@@ -87,7 +86,7 @@
     //        //spanNum.innerHTML获取页面中的内容返回的是一个字符串
     //        spanNum.innerHTML++;
     //    };
-    //弊端:每一次都需要把页面中的内容先转换为字符串然后在累加,累加完在重新添加回去,当重新的添加的时候浏览器都要从新的渲染一下
+    //弊端:每一次都需要把页面中的内容先转换为字符串然后在累加,累加完在重新添加回去,当重新的添加的时候浏览器都要重新的渲染一下
 
     //4、利用自定义属性存储(推荐)
     oBtn.count = 0;
